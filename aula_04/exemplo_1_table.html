@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-08">
+		<title>Exemplo 1 - Tabela</title>
+	</head>
+	<body>
+	<!--table -> tabela-->
+	<!--Iniciando tabela-->
+		<table border="1" width="100%">
+		<!--table head -> cabeçalho da tebela-->
+			<thead style="background-color:blue; color:#FFF">
+			<!-- Criando a primeira linha-->
+			<!-- linha da tabela-> table row-->
+				<tr>
+					<!-- th -> table head-->
+					<th>Disciplina</th>
+					<th>Nota 1</th>
+					<th>Nota 2</th>
+					<th>Nota 3</th>
+					<th>Nota 4</th>
+					<th>Média</th>
+				</tr>
+			</thead>
+			<!--tbody -> table body -> Corpo da tabela-->
+			<tbody>
+				<!--Criando a segunda linha-->
+				<!-- Linha da tabela -> Table row -> tr -->
+				<tr>
+					<!-- table data -> dados da tabela -> td-->
+					<td>Matemática</td>
+					<td>10,0</td>
+					<td>9,0</td>
+					<td>8,0</td>
+					<td>7,0</td>
+					<td>8,5</td>
+				</tr>
+				<!--Criando a terceira linha-->
+				<!-- Linha da tabela -> Table row -> tr -->
+				<tr>
+					<td>Português</td>
+					<td>9,5</td>
+					<td>10,0</td>
+					<td>8,0</td>
+					<td>8,5</td>
+					<td>9,0</td>
+				</tr>
+				<!--Criando a quarta linha-->
+				<tr>
+				<!--COLSPAM ->mesclar colunas-->
+					<th colspan="6" style="background-color:red; color:#FFF">SENAI</th>
+				</tr>
+				<!--Criando a quinta linha -->
+				<tr>
+					<th>Disciplina</th>
+					<th colspan="2">1ºSemestre</th>
+					<th colspan="2">2ºSemestre</th>
+					<th>Média</th>
+				</tr>
+				<!--Criando a sexta linha-->
+				<tr>
+					<td>Lógica de programação</td>
+					<td>9,0</td>
+					<td>9,0</td>
+					<!--rowspam -> mesclar linhas -->
+					<td rowspan="2">-</td>
+					<td rowspan="2">-</td>
+					<td>9,0</td>
+				</tr>
+				<!--Criando a setima linah -->
+				<tr>
+					<td>Levantamento de requisitos</td>
+					<td>9,0</td>
+					<td>8,0</td>
+					<!-- Temos que apagar as linhas que serão mescladas-->
+					<!--<td>-</td>-->
+					<!--<td>-</td>-->
+					<td>8,5</td>
+				</tr>
+				<!--criando a oitava linha-->
+				<tr>
+					<td>Banco de dados</td>
+					<!--rowspam -> mesclar linhas -->
+					<td rowspan="2">-</td>
+					<td rowspan="2">-</td>
+					<td>8,0</td>
+					<td>10,0</td>
+					<td>9,0</td>
+				</tr>
+				<!--Criando a nona linha -->
+				<tr>
+					<td>Linguagem de Marcação</td>
+					<!--<td>-</td>-->
+					<!--<td>-</td>-->
+					<td>10,0</td>
+					<td>10,0</td>
+					<td>10,0</td>
+				</tr>
+				<!--criando a decima linha-->
+				<tr style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4mhBoRAFC4HLIagPvshKqlJQaSBGnaKnJI7AzA6xndQ&s=10');">
+					<th colspan="5">Média total</th>
+					<th>9,0</th>
+				</tr>
+				
+			</tbody>
+		</table>
+	</body>
+</html>
